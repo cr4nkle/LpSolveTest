@@ -19,7 +19,7 @@ public class Optimator {
         problem.setObjFn(f);//задаём целевую функцию
 
         for(int i = 1; i < f.length; i++) {
-            problem.setInt(i, true);
+            problem.setInt(i, false);
         }
 
         if(m != null){
